@@ -1,0 +1,42 @@
+/* Main Layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* Fish List - Left Column */
+#fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+/* Tips/Sidebar - Right Column */
+#tipList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+/* Locations - Spans full width below */
+#locationList {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+

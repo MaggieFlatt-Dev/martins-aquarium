@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "main",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/scripts/main.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "aquariumData",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/scripts/aquariumData.js"
+        },  
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "fishList",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/scripts/fishList.js"
+        },  
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "locationList",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/scripts/locationList.js"
+        },  
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "tipList",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/scripts/tipList.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "layout",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/styles/layout.css"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "mainCss",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/styles/main.css"
+        },
+    ]
+}
